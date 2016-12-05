@@ -2,3 +2,4 @@
 *.rdb
 nodes*.conf
 *.aof
+*.swp
