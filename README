@@ -4,8 +4,10 @@ steps:
 1. modify redis.conf
 bind 192.168.1.47  -> bind *.*.*.*
 
-2. run start-node.sh
+2. run stop-node.sh && init.sh
 
-3. create-cluster.sh
+3. run start-node.sh
 
-4. after test, kill all redis-server, run stop-node.sh
+4. create-cluster.sh
+
+5. after test, kill all redis-server, run stop-node.sh
