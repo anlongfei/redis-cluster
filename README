@@ -1,1 +1,11 @@
 this is redis cluster test case
+
+steps:
+1. modify redis.conf
+bind 192.168.1.47  -> bind *.*.*.*
+
+2. run start-node.sh
+
+3. create-cluster.sh
+
+4. after test, kill all redis-server, run stop-node.sh

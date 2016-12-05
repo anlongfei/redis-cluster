@@ -5,4 +5,6 @@ redis-server 7003/redis.conf
 redis-server 7004/redis.conf
 redis-server 7005/redis.conf
 redis-server 7006/redis.conf
+ps -ef | grep redis-server
+
 
